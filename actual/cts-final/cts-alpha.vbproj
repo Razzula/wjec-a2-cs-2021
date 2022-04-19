@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AEA6B386-E1E0-4654-900C-B2D88C42386F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>cts_alpha.My.MyApplication</StartupObject>
+    <RootNamespace>cts_alpha</RootNamespace>
+    <AssemblyName>cts-alpha</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>cts-alpha.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>cts-alpha.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CTS-Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBooking.Designer.vb">
+      <DependentUpon>AddBooking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddBooking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.vb">
+      <DependentUpon>AddCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddJob.Designer.vb">
+      <DependentUpon>AddJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMaterial.Designer.vb">
+      <DependentUpon>AddMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.vb">
+      <DependentUpon>AddUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encryption.vb" />
+    <Compile Include="FileHandling.vb" />
+    <Compile Include="Gate.Designer.vb">
+      <DependentUpon>Gate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalVariables.vb" />
+    <Compile Include="Graph.Designer.vb">
+      <DependentUpon>Graph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Graph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageFiles.Designer.vb">
+      <DependentUpon>ManageFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageFiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SelectMaterial.Designer.vb">
+      <DependentUpon>SelectMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timetable.Designer.vb">
+      <DependentUpon>Timetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Timetable.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimetableCalculations.vb" />
+    <Compile Include="TimetableButton.Designer.vb">
+      <DependentUpon>TimetableButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TimetableButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Validation.vb" />
+    <Compile Include="ViewTimetable.Designer.vb">
+      <DependentUpon>ViewTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddBooking.resx">
+      <DependentUpon>AddBooking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddJob.resx">
+      <DependentUpon>AddJob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMaterial.resx">
+      <DependentUpon>AddMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gate.resx">
+      <DependentUpon>Gate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph.resx">
+      <DependentUpon>Graph.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageFiles.resx">
+      <DependentUpon>ManageFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectMaterial.resx">
+      <DependentUpon>SelectMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timetable.resx">
+      <DependentUpon>Timetable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimetableButton.resx">
+      <DependentUpon>TimetableButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTimetable.resx">
+      <DependentUpon>ViewTimetable.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CTS-Logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

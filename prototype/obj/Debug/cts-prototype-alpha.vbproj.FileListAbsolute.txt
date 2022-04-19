@@ -1,0 +1,11 @@
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\bin\Debug\cts-prototype-alpha.exe.config
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\bin\Debug\cts-prototype-alpha.exe
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\bin\Debug\cts-prototype-alpha.pdb
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\bin\Debug\cts-prototype-alpha.xml
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\obj\Debug\cts-prototype-alpha.vbprojAssemblyReference.cache
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\obj\Debug\cts_prototype_alpha.Resources.resources
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\obj\Debug\cts-prototype-alpha.vbproj.GenerateResource.cache
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\obj\Debug\cts-prototype-alpha.vbproj.CoreCompileInputs.cache
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\obj\Debug\cts-prototype-alpha.exe
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\obj\Debug\cts-prototype-alpha.xml
+C:\Users\jack0\Documents\Repos\VisualBasic\cts-prototype-alpha\obj\Debug\cts-prototype-alpha.pdb

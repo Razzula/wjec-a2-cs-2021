@@ -1,0 +1,8 @@
+ID NAME                     TYPE    PPU
+1  Mowing                   Labour  18 
+2  Hedgecutting             Labour  26
+3  5L Paint                 Resource20
+4  Light Indoor Work        Labour  22 
+5  Heavy Indoor Work        Labour  28 
+6  4ft Timbre               Resource6  
+7  Heavy Outdoor Work       Labour  28 

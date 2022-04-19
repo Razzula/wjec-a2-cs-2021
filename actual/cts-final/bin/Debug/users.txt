@@ -1,0 +1,5 @@
+USERNAME    PASSWORD    ACCESSLVL
+ÖÙâÞã       çääé        Admin
+è¼ÞááÚèåÞÚ  æìÚÂÃ·ïíØ   Admin
+ß¼ÞááÚèåÞÚ  åáâÆ¶Ïäßã   User
+ä¼ÞááÚèåÞÚ  åäÞÏÍ¸Úìæ   User

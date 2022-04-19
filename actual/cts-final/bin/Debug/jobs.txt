@@ -1,0 +1,6 @@
+ID NAME                     £R £L
+1  Mowing                   0  18
+2  Hedgecutting             0  26
+3  Paint Large Room         40 22
+4  Paint Small Room         20 22
+5  Build Fence              18 28 

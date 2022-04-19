@@ -1,0 +1,27 @@
+users.txt
+	ID		 3 '(max 999 customers)
+	username	12
+	password	12
+	accesslevel	 1 '1=admin, 0=user
+
+customers.txt
+	ID		 3
+	name		25
+	number		11
+	address		25 'all street names in the Uk are / can be abbreviated to, under 25 letters
+	area		25 'longest areas in Wrexham are "Llanarmon Dyffryn Ceiriog" (25) and "Rhosllanerchrugog" (17)
+	postcode	 7 'all postcodes are 6 or 7 characters long
+
+bookings.txt
+	ID		 3 '(max 999 bookings)
+	customer*	 3
+	joblength	 3 'in minutes (max 16.6 hours)
+
+areas.txt
+
+materials.txt
+
+timetable.txt
+	bookingID*
+	jobtime
+	pointer
